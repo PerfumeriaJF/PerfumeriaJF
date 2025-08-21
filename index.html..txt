@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfumes Originales 1.1</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white font-sans">
+
+  <!-- Header -->
+  <header class="flex justify-between items-center p-5 bg-black">
+    <h1 class="text-2xl font-bold text-yellow-400">Perfumes 1.1</h1>
+    <nav>
+      <ul class="flex gap-6">
+        <li><a href="#inicio" class="hover:text-yellow-400">Inicio</a></li>
+        <li><a href="#catalogo" class="hover:text-yellow-400">Catálogo</a></li>
+        <li><a href="#contacto" class="hover:text-yellow-400">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="inicio" class="h-screen flex flex-col items-center justify-center bg-cover bg-center" 
+    style="background-image: url('https://images.unsplash.com/photo-1522336572468-97b06e8ef143');">
+    <div class="bg-black bg-opacity-60 p-10 rounded-2xl text-center">
+      <h2 class="text-4xl md:text-6xl font-bold text-yellow-400">Perfumes Originales 1.1</h2>
+      <p class="mt-4 text-lg md:text-xl">Elegancia, exclusividad y fragancias inolvidables</p>
+      <a href="#catalogo" class="mt-6 inline-block bg-yellow-400 text-black px-6 py-3 rounded-xl font-semibold hover:bg-yellow-300">Ver Catálogo</a>
+    </div>
+  </section>
+
+  <!-- Catálogo -->
+  <section id="catalogo" class="py-16 bg-black text-center">
+    <h3 class="text-3xl font-bold mb-10 text-yellow-400">Catálogo</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-10">
+      <div class="bg-gray-900 p-6 rounded-xl shadow-lg hover:scale-105 transition">
+        <img src="https://images.unsplash.com/photo-1600180758895-96a3c3ebda6d" alt="Perfume 1" class="rounded-lg mb-4">
+        <h4 class="text-xl font-semibold">Dior Sauvage</h4>
+        <p class="mt-2 text-yellow-300 font-bold">$350.000</p>
+        <a href="https://wa.me/573001234567" target="_blank" class="mt-4 inline-block bg-yellow-400 text-black px-4 py-2 rounded-lg hover:bg-yellow-300">Comprar</a>
+      </div>
+      <div class="bg-gray-900 p-6 rounded-xl shadow-lg hover:scale-105 transition">
+        <img src="https://images.unsplash.com/photo-1613470209111-7a4c70f5fe94" alt="Perfume 2" class="rounded-lg mb-4">
+        <h4 class="text-xl font-semibold">Chanel Bleu</h4>
+        <p class="mt-2 text-yellow-300 font-bold">$420.000</p>
+        <a href="https://wa.me/573001234567" target="_blank" class="mt-4 inline-block bg-yellow-400 text-black px-4 py-2 rounded-lg hover:bg-yellow-300">Comprar</a>
+      </div>
+      <div class="bg-gray-900 p-6 rounded-xl shadow-lg hover:scale-105 transition">
+        <img src="https://images.unsplash.com/photo-1616628188454-76dbda84de87" alt="Perfume 3" class="rounded-lg mb-4">
+        <h4 class="text-xl font-semibold">Armani Acqua di Gio</h4>
+        <p class="mt-2 text-yellow-300 font-bold">$380.000</p>
+        <a href="https://wa.me/573001234567" target="_blank" class="mt-4 inline-block bg-yellow-400 text-black px-4 py-2 rounded-lg hover:bg-yellow-300">Comprar</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <footer id="contacto" class="bg-black text-center p-8 border-t border-gray-700">
+    <p class="text-lg">📲 Haz tu pedido por WhatsApp: 
+      <a href="https://wa.me/573001234567" class="text-yellow-400 font-bold">+57 300 123 4567</a>
+    </p>
+    <p class="mt-2 text-sm text-gray-400">Perfumes Originales 1.1 © 2025 - Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>
